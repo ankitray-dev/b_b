@@ -34,6 +34,7 @@ type InputProps = Omit<
     size: keyof typeof sizes;
     color: string;
   }>;
+// eslint-disable-next-line react/display-name
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   (
     {

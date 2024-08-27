@@ -25,6 +25,7 @@ type TextAreaProps = Omit<
     size: keyof typeof sizes;
   }>;
 
+// eslint-disable-next-line react/display-name
 const TextArea = React.forwardRef<HTMLTextAreaElement, TextAreaProps>(
   (
     {
